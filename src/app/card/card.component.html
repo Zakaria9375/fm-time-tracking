@@ -1,0 +1,21 @@
+<ng-container *ngIf="card">
+  <div class="rounded-[15px] relative z-10 overflow-hidden md:w-[255px] cursor-pointer" [ngStyle]="cardClr()">
+    <img [src]="'assets/images/icon-' + cardTitle + '.svg'" [alt]="'Icon logo for ' + cardTitle + ' card'"
+      class="absolute z-0 right-4 top-0">
+    <div
+      class="relative z-10 rounded-[15px] bg-secbck hover:bg-indigo px-6 md:px-[30px] py-[28px] md:pt-[29px] md:pb-8 mt-[38px] md:mt-[45px]">
+      <div class="xflex mb-[7px] md:mb-[25px]">
+        <h3 class="text-white">{{ card.title }}</h3>
+        <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
+          <path class="hover:fill-white cursor-pointer"
+            d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+            fill="#BBC0FF" fill-rule="evenodd" />
+        </svg>
+      </div>
+      <div class="xflex md:block">
+        <h1 class="text-white">{{ card.timeFrame.current + 'hrs' }}</h1>
+        <h4 class="text-pale md:mt-2">{{ description + card.timeFrame.previous + 'hrs' }}</h4>
+      </div>
+    </div>
+  </div>
+</ng-container>

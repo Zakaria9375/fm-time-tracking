@@ -1,1 +1,35 @@
-/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-work: #FF8B64;
+    --color-play: #55C2E6;
+    --color-study: #FF5E7D;
+    --color-exercise: #4BCF82;
+    --color-social: #7335D2;
+    --color-self-care: #F1C75B;
+  }
+  body {
+    @apply font-Rubik bg-mainbck;
+  }
+  h1 {
+    @apply text-[32px] leading-[38px] md:text-[56px] md:leading-[66px];
+  }
+  h2 {
+    @apply text-[24px] leading-[28px] md:text-[40px] md:leading-[47px];
+  }
+  h3 {
+    @apply text-[18px] leading-[21px];
+  }
+  h4 {
+    @apply text-[15px] leading-[18px];
+  }
+}
+
+@layer components {
+  .xflex {
+    @apply flex items-center justify-between;
+  }
+}

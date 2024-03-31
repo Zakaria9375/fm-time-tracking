@@ -1,27 +1,33 @@
-# TimeTracking
+# Time Tracking
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.3.
+This is a solution to the <a href="https://www.frontendmentor.io/challenges/time-tracking-dashboard-UIQ7167Jw" target="_blank" rel="noopener noreferrer">Time Tracking dashboard challenge on Frontend Mentor</a>. Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Development server
+![Design preview](./src/assets/design/desktop-design.jpg)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Technologies
 
-## Code scaffolding
+The technologies used in this design are:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+* HTML & CSS & Ts
+* Tailwind
+* Angular
 
-## Build
+## Setup
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+To run this app in development mode open the terminal and write the following:
 
-## Running unit tests
+```sh  
+git clone https://github.com/Zakaria9375/fm-time-tracking.git 
+cd fm-time-tracking  
+npm install 
+ 
+// you need to install angular cli to run this app in development mode
+npm install -g @angular/cli
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+ng serve
+```
 
-## Running end-to-end tests
+## Links
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+* <a href="https://www.frontendmentor.io/challenges/time-tracking-dashboard-UIQ7167Jw" target="_blank" rel="noopener noreferrer">Challenge</a> 
+* <a href="https://za-time-tracking.netlify.app/" target="_blank" rel="noopener noreferrer">Live</a>

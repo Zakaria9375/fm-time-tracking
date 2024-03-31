@@ -1,0 +1,18 @@
+
+
+<div class="rounded-[15px] bg-secbck md:w-[255px]">
+  <div class="rounded-[15px] bg-bluebck p-8 md:pb-[80px] md:pt-[34px] lmd:flex lmd:gap-[18px]">
+    <img class=" rounded-full size-[70px] md:size-[85px] border-white border-[3px]"
+      src="assets/images/image-jeremy.png" alt="Profile photo">
+    <div class="md:mt-10">
+      <h4 class="mb-1 md:mb-[3px] text-pale">Report for</h4>
+      <h2 class="text-white">Jeremy Robson</h2>
+    </div>
+  </div>
+  <div class="py-6 md:pb-[33px] md:pt-[26px] md:px-8 flex md:flex-col md:items-start md:space-y-[21px]">
+    <button *ngFor="let btn of btns" (click)="changeTimeFrame(btn)"
+      class="flex-1 border-none bg-none capitalize text-pale text-[18px] leading-[21px] lmd:text-center" [ngClass]="btnActiveClass(btn)">
+      {{ btn }}
+    </button>
+  </div>
+</div>
