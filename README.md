@@ -1,6 +1,6 @@
 # Time Tracking
 
-This is a solution to the <a href="https://www.frontendmentor.io/challenges/time-tracking-dashboard-UIQ7167Jw" target="_blank" rel="noopener noreferrer">Time Tracking dashboard challenge on Frontend Mentor</a>. Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Time Tracking dashboard challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/time-tracking-dashboard-UIQ7167Jw). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ![Design preview](./src/assets/design/desktop-design.jpg)
 
@@ -11,6 +11,7 @@ The technologies used in this design are:
 * HTML & CSS & Ts
 * Tailwind
 * Angular
+
 
 ## Setup
 
@@ -29,5 +30,5 @@ ng serve
 
 ## Links
 
-* <a href="https://www.frontendmentor.io/challenges/time-tracking-dashboard-UIQ7167Jw" target="_blank" rel="noopener noreferrer">Challenge</a> 
-* <a href="https://za-time-tracking.netlify.app/" target="_blank" rel="noopener noreferrer">Live</a>
+* [Challenge](https://www.frontendmentor.io/challenges/time-tracking-dashboard-UIQ7167Jw)  
+* [Live](https://fm-time-tracking.netlify.app/)
